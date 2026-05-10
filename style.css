@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    color: rgb(0, 0, 0);
+    font-family: 'Verdana', sans-serif;;
+    font-size: 70px;
+    text-align: center;
+    padding-top: 20px;
+}
+.button-container{
+    display: flex;
+    line-height: 0;
+    background: transparent;
+    border: none;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 0%;
+}
+.button-container img{
+    object-fit: cover;
+    mix-blend-mode: multiply;
+    width: 800px;
+    height: 250px;
+    margin: 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.button-container img:hover{
+    transform: scale(1.1);
+}
